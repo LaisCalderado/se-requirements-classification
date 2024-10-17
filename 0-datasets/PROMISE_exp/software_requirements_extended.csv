@@ -1,9 +1,9 @@
 Type,Requirement
 PE,The system shall refresh the display every 60 seconds.
 LF,The application shall match the color of the schema set forth by Department of Homeland Security
-us,If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30
+US,If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30
 A, The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.
-us,If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100
+US,If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100
 SE,The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts
 US,The product shall be intuitive and self-explanatory.  
 PE,The product shall respond fast to keep up-to-date data in the display.
@@ -24,18 +24,18 @@ F,The Disputes System must provide the user the ability to initiate a single dis
 F,The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.
 F,The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.
 F,The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.
-F, The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.
+F,The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.
 F,The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.
-F, The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.
+F,The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.
 F,The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.
-F, The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.
+F,The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.
 F,The Disputes System must provide the ability to view existing dispute cases.
-F, The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.
+F,The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.
 F,A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.
 F,The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.
 F,The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.
-F, The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.
-F, For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.
+F,The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.
+F,For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.
 F,All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.
 F,Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.
 O,The product must support Internet Explorer 5.5 and above.
@@ -76,10 +76,10 @@ SE,The system shall prevent malicious attacks including denial of service.
 L,The product must comply with Sarbanes-Oxley.
 L,The product shall comply with the estimatics laws relating to recycled parts usage.
 L,The product shall comply with insurance regulations regarding claims processing.
-F, The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles
-F, The vehicle data shall include vehicle year  make  and model
-F, The vehicle location shall include street address  city  state  and zipcode
-F, The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.
+F,The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles
+F,The vehicle data shall include vehicle year  make  and model
+F,The vehicle location shall include street address  city  state  and zipcode
+F,The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.
 F,The search radius shall be between 1 and 30 miles
 F,The system shall locate the preferred repair facility with the highest ratings for the input criteria
 F,The adjuster shall enter the preferred repair facility on the estimate assignment.
@@ -100,7 +100,7 @@ F,The recycled parts search results provided to the estimator shall be retrieved
 F,The system shall generate an audit report based on the available recycled parts and the collision estimate.
 F,The audit report shall include the total number of recycled parts used in the estimate.
 F,The audit report shall include the number of available recycled parts from the original search results.
-F, The audit report shall include the percentage of available recycled parts used in the estimate
+F,The audit report shall include the percentage of available recycled parts used in the estimate
 F,The audit report shall include the total score of the audit which sums the indivual line items.
 F,The audit report shall be displayed to the user.
 F,The audit report shall be available to other adjusters at later points in time.
@@ -117,14 +117,14 @@ O,The product will function alongside server software on any operating system wh
 O,The product will require collaboration with a database management system (DBMS).  The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.
 O,The product must make use of web/application server technology.  Open source examples include Apache web server  Tomcat  and the JBoss application server.
 O,A database management system such as Oracle  DB2  MySql or HSQL will need to be integrated with the product.
-LF, The product s Look and Feel shall be able to incorporate aspects of the customer s organization such as logo  branding  and identity
+LF,The product s Look and Feel shall be able to incorporate aspects of the customer s organization such as logo  branding  and identity
 LF,The product shall have a conservative and professional appearance.
 US,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.
 US,The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.
 US,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.
 US,The product shall allow the user to select a chosen language from one of the target market countries.
 US,The product shall allow for customization of start page and views preferences.
-us,An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.
+US,An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.
 US,The product shall use a standard navigation menu familiar to most web users.
 US,The product shall allow for intuitive searching of available conference rooms.
 US,The product shall conform to the Americans with Disabilities Act.
@@ -147,7 +147,7 @@ MN,The product must be highly configurable for use with various database managem
 MN,Maintenance releases will be offered to customers once a year.  The releases shall take no longer than 5 minutes for 80% of the customer base to install.
 US,Every registered user will have access to the product s support site via the Internet.  70% of registered users shall find a solution to their problem within 5 minutes of using the support site.
 MN,The customer shall be able to easily integrate new building maps with the product throughout the product s lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.
-us,The product shall be translated into foreign languages other than the target market countries  languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that market s language.
+US,The product shall be translated into foreign languages other than the target market countries  languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that market s language.
 O,The product is expected to integrate with multiple database management systems.  The product will operate with Oracle  SQL Server  DB2  MySQL  HSQL  and MS Access.
 O,The product shall be able to be installed in any operating environment within 2 days.
 SE,The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.
@@ -171,7 +171,7 @@ F,The product shall be able to store new room equipment.
 F,The product will update existing room equipment.
 F,The product shall be able to delete room equipment.
 F,The product shall allow an organizer to invite other employees to meetings.
-F, Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.
+F,Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.
 F,The product shall record the transportation status of equipment reserved.
 F,The product shall display a map of the company building showing conference room locations.
 F,The product shall record updated meeting agendas.
@@ -197,12 +197,12 @@ O,The System shall not require additional third party licenses resulting in roya
 F,The System shall allow generation of Inventory Quantity Adjustment documents on demand.
 F,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.
 F,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.
-F, The System shall allow entering  storing and modifying product formulas.
-F, Product formulas shall allow use of semi-products  which have own formulas.
+F,The System shall allow entering  storing and modifying product formulas.
+F,Product formulas shall allow use of semi-products  which have own formulas.
 F,Product formula ingredients shall allow defining substitutionary ingredients.
 F,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.
 F,Formula substitutionary ingredients shall be kept in persisted order
-F, Product shall allow entering  storing and modifying product menus used by POS terminals.
+F,Product shall allow entering  storing and modifying product menus used by POS terminals.
 F,PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.
 F,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.
 F,PME Subsystem shall allow for a product to exist in more than one submenu
@@ -221,11 +221,10 @@ PE,System shall let the administrator add/remove categories on the website in un
 PE,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.
 PE,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.
 LF,The website shall be attractive to all audiences.  The website shall appear to be fun and the colors should be bright and vibrant.
-LF, The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.
-LF, The website design should be modern  clean  and concise.
-F, The system shall allow users to filter search results by event date.
-F, The system shall allow exporting activity reports in CSV format.
-
+LF,The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.
+LF,The website design should be modern  clean  and concise.
+F,The system shall allow users to filter search results by event date.
+F,The system shall allow exporting activity reports in CSV format.
 FT,The system shall automatically save user progress every 5 minutes to prevent data loss.
 FT,The product shall provide users with an option to revert to the last stable version of the application.
 FT,The system shall use redundant servers to ensure continuous availability.
@@ -326,16 +325,16 @@ FT,The system shall utilize external resources for additional fault tolerance ca
 FT,The product shall provide a timeline of events leading up to a failure for analysis.
 FT,The system shall maintain a library of recovery scenarios for reference.
 FT,The product shall regularly review and update recovery plans based on changing needs.
-F, The system shall allow users to create custom alerts for specific activities.
-F, The system shall integrate with the electronic payment system for transaction validation.
-F, The system shall generate real-time notifications when a new activity is added.
-F, The system shall allow users to edit their profile information directly from the portal.
-F, The system shall provide real-time graphical visualization of data.
-F, The system shall allow the administrator to manage user roles and permissions.
-F, The system shall automatically archive records older than 1 year.
-F, The system shall provide a multi-language interface to support global users.
+F,The system shall allow users to create custom alerts for specific activities.
+F,The system shall integrate with the electronic payment system for transaction validation.
+F,The system shall generate real-time notifications when a new activity is added.
+F,The system shall allow users to edit their profile information directly from the portal.
+F,The system shall provide real-time graphical visualization of data.
+F,The system shall allow the administrator to manage user roles and permissions.
+F,The system shall automatically archive records older than 1 year.
+F,The system shall provide a multi-language interface to support global users.
 US,The product should be able to be used by 90% of novice users on the Internet.
-us,Users should only have to navigate through a maximum of 4 pages  to create an account with the website.
+US,Users should only have to navigate through a maximum of 4 pages  to create an account with the website.
 US,Users should be able to access their streaming movies in under 2 clicks after logging into the website.
 US,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.
 US,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.
@@ -420,15 +419,15 @@ PE,The system shall maintain a response time of less than 1 second for all read-
 PE,The system shall synchronize data between local and cloud environments within 30 seconds.
 PE,The system shall support simultaneous access by 10,000 users with no noticeable degradation in performance.
 LF,The website shall not be offensive to religious or ethnic groups.
-LF, The website should appeal to all Africans  not only Nigerians.
+LF,The website should appeal to all Africans  not only Nigerians.
 O,The website should use Flash to provide animation on the home page.
 L,IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.
 L,The website will comply with W3C standards.
 L,The PHP code will comply with PEAR standards.
-F, The website will allow customers to search for movies by title  actor  or director.
-F, viewing a movie details  the website will display the movies description  actor  and director entered in by the administrator.
-F, Website shall request  and authorize credit card payment before allowing a user to stream a movie.
-F, shall be able to stream purchased movie via Windows Media Player  for up to 2 days aftere purchase date.
+F,The website will allow customers to search for movies by title  actor  or director.
+F,viewing a movie details  the website will display the movies description  actor  and director entered in by the administrator.
+F,Website shall request  and authorize credit card payment before allowing a user to stream a movie.
+F,shall be able to stream purchased movie via Windows Media Player  for up to 2 days aftere purchase date.
 F,Website shall allow customers to browse movies by categories entered in by izogn administrator.
 F,Website shall allow customers to view reviews of selected movies by other customers.
 F,Website shall allow customers to add their own movie review for a selected movie.
@@ -440,15 +439,15 @@ US,The help system shall provide context-sensitive tips for new users.
 US,95% of users shall find the dashboard intuitive within 1 week of usage.
 US,The product shall provide mobile-friendly access to the core functionality.
 US,The system shall allow users to customize the dashboard with widgets.
-F, Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.
-F, System shall automatically update the main page of the website every Friday  and show the 4 latest movies that have been added to the website.
+F,Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.
+F,System shall automatically update the main page of the website every Friday  and show the 4 latest movies that have been added to the website.
 F,System shall allow users to update their billing and contact information via the  My Account  section of the website.
-F, Pre-paid cards shall be distributed via email  or via a printed paper card.
-F, Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.
+F,Pre-paid cards shall be distributed via email  or via a printed paper card.
+F,Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.
 F,Website must be able to support free trial periods with various parameters set by the Izogn Manager.
-F, All streaming movie sales will be logged in the database  and accessible by the administrator.
-F, All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.
-F, Daily usage statistics should be logged  and accessible by the administrator.
+F,All streaming movie sales will be logged in the database  and accessible by the administrator.
+F,All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.
+F,Daily usage statistics should be logged  and accessible by the administrator.
 F,The owner shall have free access to all of the streaming movies.
 PE,Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.
 SE,The system shall enforce two-factor authentication for all admin-level users.
@@ -693,16 +692,16 @@ F,The leads washing functionality shall receive a period list of available reps 
 LF,The product shall simulate the look of ships at sea.
 LF,The product shall display the grids within a circle as a view from a periscope.
 LF,The product shall display each type of ship in a grid using an image of the specific type of ship.
-LF, When the offensive player takes a shot  the product shall simulate the sound of a ship at sea.
-LF, When a shot is marked as a miss  the product shall simulate the sound of a shot missing its target.
-LF, When a shot is marked as a hit  the product shall simulate the sound of a shot hitting its target.
-LF, When a ship is sunk  the product shall simulate the sound of a sinking ship.
+LF,When the offensive player takes a shot  the product shall simulate the sound of a ship at sea.
+LF,When a shot is marked as a miss  the product shall simulate the sound of a shot missing its target.
+LF,When a shot is marked as a hit  the product shall simulate the sound of a shot hitting its target.
+LF,When a ship is sunk  the product shall simulate the sound of a sinking ship.
 A, The product shall be available 24 hours per day  seven days per week.
 PE,The product shall able to handle a large number of games simultaneously.
 PE,The response time shall be fast enough to maintain the flow of the game.  The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.
 PE,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.
 US,The product shall be intuitive and self-explanatory.  Nine out ten users shall be able to successfully complete a game with no training.
-us,The product shall be available to players who understand English  Spanish and French.  The product shall allow the user to select the language upon accessing the product.
+US,The product shall be available to players who understand English  Spanish and French.  The product shall allow the user to select the language upon accessing the product.
 SE,The product shall provide players no access to information that might reveal the identity of another player
 PE,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.
 F,The product shall maintain a list of players.
@@ -831,28 +830,28 @@ LF,The product shall include an intuitive way to navigate between different sect
 LF,The application shall allow users to change the display language for better accessibility.
 LF,The system shall ensure that all navigation links are clearly labeled and accessible.
 F,The product shall allow a user to identify himself or herself as a player.
-F, Once a game has been initiated  the product shall make the players assigned to the game unavailable for selection from the list of players.
+F,Once a game has been initiated  the product shall make the players assigned to the game unavailable for selection from the list of players.
 F,The product shall allow a user to remove himself or herself from the list of players at any time.
 F,The product shall make inactive players unavailable for selection from the list of players.
 F,The product shall remove players who have been inactive for 24 hours from the list of players.
 F,The product shall allow a player to initiate a game by selecting another available player from the list of players.
-F, Once a game is initiated  the product shall display a defensive grid to each player
-F, Once a game is initiated  the product shall display an offensive grid to each player.
+F,Once a game is initiated  the product shall display a defensive grid to each player
+F,Once a game is initiated  the product shall display an offensive grid to each player.
 F,The product shall prevent a player from viewing the offensive or defensive grids of the other player.
-F, Once a game is initiated  the product shall allow each player to position their 5 ships on their respective defensive grids.
+F,Once a game is initiated  the product shall allow each player to position their 5 ships on their respective defensive grids.
 F,The product shall allow a player to position ships horizontally on their grid.
 F,The product shall allow the player to position ships vertically on their grid.
 F,The product shall allow the player to position ships diagonally on their grid
 F,The product shall prevent the player from overlapping ships on their grid.
-F, When both players have positioned their 5 ships on their defensive grids  the product shall define the status of each player for the first turn.
-F, For each turn  the product shall identify one player as offensive status and one player as defensive status.
-F, The product shall maintain the status of each player for a turn  either offensive or defensive.
-F, At the start of each turn  the product shall notify each player of his or her status.
-F, For each turn  the product shall allow the offensive player to define a shot.
-F, For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.
-F, For each shot  the product shall notify the players whether the shot was a hit or miss.
-F, For each shot  the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.
-F, For each shot  the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.
+F,When both players have positioned their 5 ships on their defensive grids  the product shall define the status of each player for the first turn.
+F,For each turn  the product shall identify one player as offensive status and one player as defensive status.
+F,The product shall maintain the status of each player for a turn  either offensive or defensive.
+F,At the start of each turn  the product shall notify each player of his or her status.
+F,For each turn  the product shall allow the offensive player to define a shot.
+F,For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.
+F,For each shot  the product shall notify the players whether the shot was a hit or miss.
+F,For each shot  the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.
+F,For each shot  the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.
 F,When the hit results in sinking a ship  the product shall notify the players that the ship was sunk.
 F,When the hit results in sinking a ship  the product shall mark the ship as sunk on the defensive grid of the defensive player.
 F,When the hit results in sinking a ship  the product shall indicate the type of ship sunk on the defensive grid of the defensive player.
@@ -1223,7 +1222,7 @@ F,Program Administrators and Nursing Staff Members shall be able to add a listin
 F,Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort
 F,Students added to a cohort shall be eligible for the cohort s Program of Study.
 F,Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.
-F, For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.
+F,For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.
 F,Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes
 MN,Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.
 MN,New System version releases shall be released at the beginning of each NFL season.
@@ -1249,9 +1248,9 @@ LF,The intranet pages should display appropriately in all resolutions  from 800x
 US,The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.
 PE,The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time  the response time should not be more than 10 seconds.not be more than 10 seconds.
 F,The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.
-F, The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.
-F, The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.
-F, The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.
+F,The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.
+F,The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.
+F,The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.
 FR,The feature of the application shall provide the optimized route for the given addresses
 FR,This feature provides the user to select an optimized route for the addresses given and fixing any path between the desired locations. 
 NFR,"Fast internet connection is not mandatory, but it would increase the performance of the application"
@@ -1276,7 +1275,7 @@ FR,All users shall be able to zoom into images using the standard gestures on mo
 FR,All Users will be able to view the next product by swiping left to right .
 FR,All users should be able to go back to the product category page via the back button in the top corner.
 FR,All users should be able to search by keyword or product ID.
-FR,"All users should be able to navigate using the sub navigation icons to access the Catalogue PDF, 360 videos, and to contact a rep representative"
+FR,"All users should be able to navigate using the sub navigation icons to access the Catalogue PDF,360 videos, and to contact a rep representative"
 FR,The application itself will only have minimal logic and so there should be little to no issues with the computation required by the phone itself.  
 FR,"The only hazard is a user using the device when they should not be, such as while driving."
 NFR,The application must be able to link up with the INTERNAL system in order for users to properly log in and be identified.
@@ -1430,7 +1429,7 @@ NFR,The accuracy of the Generic Answer Populationâ€‹ unit will be close to 
 NFR,"The average time for the server to respond, over the question testing set, will be less than or equal to 2 seconds."
 NFR,"The connection between the Web API and the programs will use HTTPS, for security."
 NFR,A new user will make less than 3 mistakes in 5 minutes after 5 minutes of use.
-NFR,"FAU class contains requirements for recording the occurrence of security relevant events that take place under TSF control. This family identifies the level of auditing, enumerates the types of events that shall be auditable by the TSF, and identifies the minimum set of audit related information that should be provided within various audit record types. The following extended requirement for the FAU class has been included in this ST because the operational environment is capable of providing security audit generation for TSF functions."
+NFR,"FAU class contains requirements for recording the occurrence of security relevant events that take place under TSF control. This family identifies the level of auditing, enumerates the types of events that shall be auditable by the TSF,and identifies the minimum set of audit related information that should be provided within various audit record types. The following extended requirement for the FAU class has been included in this ST because the operational environment is capable of providing security audit generation for TSF functions."
 NFR,"Performance should not be an issue because all of our server queries involve small pieces of data. Changing screens will require very little computation and thus will occur very quickly. Server updates should only take a few seconds as long as the phone can maintain a steady signal. The cost-division algorithms used by in application will be highly efficient, taking only a fraction of a second to compute."
 NFR,SplitPay will not affect data stored outside of its servers nor will it affect any other applications installed on the userâ€™s phone. It cannot cause any damage to the phone or its internal components. The only potential safety concern associated with this application applies to virtually all handset apps: SplitPay should not be used while operating a vehicle or in any other situation where the userâ€™s attention must be focused elsewhere.
 NFR,"This application assumes that only the user or whoever he/she allows will have access to his/her Android handset. With that being said, only a Google email address is required to verify the identity of the user upon opening the app. Since it is not password protected, there is no method to authenticate the userâ€™s identity. This could only pose a thread if a user has set up PayPal functionality, however any transaction involving real currency must be authorized and confirmed before becoming final. The PayPal API provides all of the security checks needed to ensure that no fraudulent transactions occur."
